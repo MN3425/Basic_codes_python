@@ -1,0 +1,13 @@
+def prime_or_not(n):
+    if n>1:
+
+        for i in range(2,(n//2)+1):
+            if (n%i)== 0:
+                print(f"Number {n} is not prime")
+                break
+        else:
+            print(f"Number {n} is prime")
+    else:
+        print(f"Number {n} is not prime")
+
+prime_or_not(19)
