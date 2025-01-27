@@ -1,0 +1,7 @@
+def reverse(num):
+    str_num = str(num)  # Correct way to convert to string
+    str_rev = str_num[::-1]
+    num_rev = int(str_rev)
+    return num_rev
+num = int(input("enter number"))
+print(reverse(num))
